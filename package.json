@@ -1,0 +1,43 @@
+{
+  "name": "barebone",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint:check": "eslint --ext .ts,.vue ./src",
+    "lint:fix": "yarn lint:check --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.(vue|ts)": "yarn lint:check"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "gridsome": "^0.6.4",
+    "vue-i18n": "^8.14.1",
+    "vue-property-decorator": "^8.2.0"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.4.1",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^5.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.0",
+    "gridsome-plugin-tailwindcss": "^2.2.26",
+    "gridsome-plugin-typescript": "0.4.0",
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.0",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.5.0"
+  }
+}
