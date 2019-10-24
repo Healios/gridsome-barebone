@@ -1,6 +1,7 @@
-# Typescript Starter for Gridsome
+# Typescript, Tailwind CSS, PurgeCSS & I18n starter for Gridsome
 
-This is a starter template for Gridsome using Typescript, Tailwind CSS, PurgeCSS & I18n. It uses **eslint** and **typescript** for static code analisys. In order to integrate these tools with Visual Studio Code, you'll need to install **ESLint** and **Vetur** extensions for the editor.
+This is a starter template for Gridsome using Typescript, Tailwind CSS, PurgeCSS & I18n.
+It uses **ESLint** and **Typescript** for static code analisys. In order to integrate these tools with Visual Studio Code, you'll need to install **ESLint** and **Vetur** extensions for the editor.
 
 ### 1. Install Gridsome CLI tool
 
