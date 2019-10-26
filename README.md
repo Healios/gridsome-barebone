@@ -9,7 +9,7 @@ It uses **ESLint** and **Typescript** for static code analisys. In order to inte
 
 ### 2. Create a Gridsome project
 
-1. `gridsome create project-name https://github.com/Healios/gridsome-barebone` to install this starter.
+1. `gridsome create project-name https://github.com/Healios/gridsome-barebone.git` to install this starter.
 2. `cd project-name` to open folder.
 3. `gridsome develop` to start local dev server at `http://localhost:8080`
 
