@@ -1,4 +1,4 @@
-import { VueConstructor } from 'vue';
-import { ClientContext } from './ClientContext';
+import { VueConstructor, } from "vue";
+import { IClientContext, } from "./IClientContext";
 
-export type ClientApiConstructor = (Vue: VueConstructor, context: ClientContext) => void;
+export type ClientApiConstructor = (Vue : VueConstructor, context : IClientContext) => void;

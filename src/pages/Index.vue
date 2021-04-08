@@ -12,8 +12,11 @@
 </i18n>
 
 <template>
-    <Frontpage>
-    </Frontpage>
+    <layout>
+        <div class="flex w-full h-full justify-center items-center">
+            <h1 class="text-4xl font-semibold">Barebones starter for Gridsome</h1>
+        </div>
+    </layout>
 </template>
 
 <script lang="ts">

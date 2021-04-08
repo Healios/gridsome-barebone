@@ -1,2 +1,2 @@
-export { ClientContext } from './ClientContext';
-export { ClientApiConstructor } from './ClientApiConstructor';
+export { IClientContext, } from "./IClientContext";
+export { ClientApiConstructor, } from "./ClientApiConstructor";

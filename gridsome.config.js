@@ -1,3 +1,8 @@
+/* eslint @typescript-eslint/no-var-requires: 0 */
+const tailwind = require("@tailwindcss/postcss7-compat");
+const autoprefixer = require("autoprefixer");
+const postcssPlugins = [tailwind(), autoprefixer(),];
+
 module.exports = {
     chainWebpack: config => {
         config.module
@@ -7,23 +12,18 @@ module.exports = {
             .use("i18n")
             .loader("@kazupon/vue-i18n-loader");
     },
-    siteName: "Barebone",
+    siteName: "Barebones",
     icon: "src/assets/logo.png",
     plugins: [
         {
             use: "gridsome-plugin-typescript",
         },
-        {
-            use: "gridsome-plugin-tailwindcss",
-            options: {
-                tailwindConfig: "./tailwind.config.js",
-                purgeConfig: {},
-                presetEnvConfig: {},
-                shouldPurge: true,
-                shouldImport: true,
-                shouldTimeTravel: true,
-                shouldPurgeUnusedKeyframes: true,
+    ],
+    css: {
+        loaderOptions: {
+            postcss: {
+                plugins: postcssPlugins,
             },
         },
-    ],
+    },
 };

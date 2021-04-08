@@ -17,26 +17,28 @@
     "*.(vue|ts)": "yarn lint:check"
   },
   "dependencies": {
-    "animate.css": "^3.7.2",
-    "gridsome": "^0.6.4",
+    "gridsome": "^0.7.23",
     "vue-i18n": "^8.14.1"
   },
   "devDependencies": {
-    "@kazupon/vue-i18n-loader": "^0.4.1",
+    "@kazupon/vue-i18n-loader": "0.4.1",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
-    "eslint": "^5.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.18.0",
+    "autoprefixer": "9",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.0",
-    "gridsome-plugin-tailwindcss": "^2.2.26",
-    "gridsome-plugin-typescript": "0.4.0",
-    "husky": "^2.7.0",
-    "lint-staged": "^8.2.0",
-    "ts-loader": "^6.0.0",
-    "typescript": "^3.5.0"
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.8.0",
+    "gridsome-plugin-typescript": "^0.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.3"
   }
 }
