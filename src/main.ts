@@ -15,7 +15,7 @@ const client : ClientApiConstructor = (Vue, { head, appOptions, }) => {
         silentFallbackWarn: false,
     });
 
-    Vue.component("Frontpage", Layout);
+    Vue.component("Layout", Layout);
 };
 
 export default client;
