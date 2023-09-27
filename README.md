@@ -1,3 +1,5 @@
+# NOTE : The Gridsome project seems to be dead. As a result, the repository has been archived. Consider Nuxt as an alternative, Nuxt 3 is a very good experience. 
+
 # Typescript / Tailwind CSS Starter for Gridsome
 
 This is a starter template for Gridsome using Typescript & Tailwind CSS. It uses **eslint** and **typescript** for static code analisys. In order to integrate these tools with Visual Studio Code, you'll need to install **ESLint** and **Vetur** extensions for the editor. Furthermore Tailwind CSS has been installed and to integrate this framework with VS Code, you'll need to install the **TailwindCSS Intellisense** extension.
